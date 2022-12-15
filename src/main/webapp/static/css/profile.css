@@ -1,0 +1,48 @@
+.card-profile {
+    width: 40%;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    box-shadow: #392479 0 0 60px;
+    border: 2px solid #322e4b;
+}
+.card-profile:hover {
+    transition: .2s;
+    box-shadow: #26135b 0 0 60px;
+    border: 1px solid #322e4b;
+}
+.modify-title {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 10px auto 15px;
+}
+.title-icon {
+    background-image: url("../img/modify.png");
+    background-size: 48px 48px;
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+    vertical-align: middle;
+}
+.form-item {
+    margin: 15px 0;
+}
+.form-item > label {
+    width: 4em;
+}
+.form-item:nth-of-type(4) {
+    padding-left: 70px;
+}
+.send-btn {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.send-btn > input {
+    margin-right: 10px;
+    background-color: #13f15d;
+    border: 2px solid #582e86;
+}

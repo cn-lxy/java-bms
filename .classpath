@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="src" path="src/test/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/bootstrap"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: jakarta.servlet:jakarta.servlet-api:5.0.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.junit.jupiter:junit-jupiter-api:5.8.2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.opentest4j:opentest4j:1.2.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.junit.platform:junit-platform-commons:1.8.2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.apiguardian:apiguardian-api:1.1.2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.junit.jupiter:junit-jupiter-engine:5.8.2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.junit.platform:junit-platform-engine:1.8.2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:2.0.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: jakarta.xml.bind:jakarta.xml.bind-api:3.0.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.sun.activation:jakarta.activation:2.0.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: jakarta.el:jakarta.el-api:4.0.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.glassfish.web:jakarta.servlet.jsp.jstl:2.0.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: jakarta.servlet.jsp:jakarta.servlet.jsp-api:3.0.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: mysql:mysql-connector-java:8.0.28"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.google.protobuf:protobuf-java:3.11.4"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.jetbrains:annotations:23.0.0"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

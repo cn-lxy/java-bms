@@ -1,0 +1,173 @@
+
+td > a {
+    color: #7d8bd0;
+}
+td > a:hover {
+    color: #13f15d !important;
+}
+.navbar-container {
+    justify-content: flex-start;
+}
+.card {
+    justify-content: start;
+    flex-direction: row;
+    align-items: center;
+
+}
+#icon {
+    display: inline-block;
+    background-image: url("../../static/img/icon/about.png");
+    border-radius: 50%;
+    background-size: 32px 32px;
+    height: 32px;
+    width: 32px;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.about-row {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.head-logo {
+    display: inline-block;
+    background-image: url("../../static/img/test-man.png");
+    border-radius: 50%;
+    background-size: 64px 64px;
+    height: 64px;
+    width: 64px;
+    vertical-align: middle;
+}
+.head-logo-2 {
+    display: inline-block;
+    background-image: url("../../static/img/icon/image-2.png");
+    border-radius: 50%;
+    background-size: 64px 64px;
+    height: 64px;
+    width: 64px;
+    vertical-align: middle;
+}
+.head-logo-3 {
+    display: inline-block;
+    background-image: url("../../static/img/icon/image-3.png");
+    border-radius: 50%;
+    background-size: 64px 64px;
+    height: 64px;
+    width: 64px;
+    vertical-align: middle;
+}
+.introduction {
+    margin-left: 20px;
+}
+.first {
+    flex-grow: 3;
+}
+.second {
+    flex-grow: 1;
+}
+
+#jquery-icon {
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url("../../static/img/icon/jQuery.png");
+    background-size: 25px 25px;
+    width: 25px;
+    height: 25px;
+}
+#bootstrap5-icon {
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url("../../static/img/icon/bootstrap-5.png");
+    background-size: 25px 25px;
+    width: 25px;
+    height: 25px;
+}
+#layui-icon {
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url("../../static/img/icon/layui.png");
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 25px;
+}
+#idea {
+    display: inline-block;
+    background-image: url("../../static/img/icon/idea.png");
+    border-radius: 50%;
+    background-size: 64px 64px;
+    height: 64px;
+    width: 64px;
+    vertical-align: middle;
+}
+#deployment {
+    display: inline-block;
+    background-image: url("../../static/img/icon/deployment.png");
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-size: 48px 48px;
+    background-position: 8px 8px;
+    height: 64px;
+    width: 64px;
+    vertical-align: middle;
+}
+
+.link-2 {
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.link-2 > div {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.col-idea {
+    flex-grow: 2;
+}
+.col-deployment {
+    flex-grow: 3;
+}
+.link-1, .link-2, .link-3, .link-4, .link-5, .link-6 {
+    border: 1px solid hsla(0, 0%, 100%, .2);
+    transition: background-color, .2s;
+    border-radius: 8px;
+    /*background-color: #303033;*/
+}
+.link-1:hover {
+    background: rgb(31, 187, 161) radial-gradient(circle at 200px 100px,
+    rgb(117, 214, 75) 0, rgb(117, 214, 75, 0) calc(0% + 129px))
+    no-repeat scroll 0 0 border-box;
+    color: #151320;
+}
+.link-2:hover {
+    background: rgb(38, 234, 152) radial-gradient(circle at 50px 50px,
+    rgb(191, 194, 107) 0, rgb(117, 214, 75, 0) calc(0% + 129px)) no-repeat scroll 0 0 border-box;
+    color: #151320;
+
+}
+.link-3:hover {
+    background: rgb(50, 141, 92) radial-gradient(circle at 100px 100px,
+    rgb(155, 86, 239) 0, rgb(117, 214, 75, 0) calc(0% + 129px))
+    no-repeat scroll 0 0 border-box;
+    color: #151320;
+
+}
+.link-4:hover {
+    background: rgb(236, 194, 145) radial-gradient(circle at 280px 90px,
+    rgb(232, 54, 129) 0, rgb(117, 214, 75, 0) calc(0% + 129px))
+    no-repeat scroll 0 0 border-box;
+    color: #151320;
+}
+.link-5:hover {
+    background: rgb(175, 76, 127) radial-gradient(circle at 150px 100px,
+    rgb(177, 100, 213) 0, rgb(117, 214, 75, 0) calc(0% + 129px))
+    no-repeat scroll 0 0 border-box;
+    color: #151320;
+}
+.link-6:hover {
+    background: rgb(81, 176, 159) radial-gradient(circle at 150px 100px,
+    rgb(204, 165, 114) 0, rgb(117, 214, 75, 0) calc(0% + 129px))
+    no-repeat scroll 0 0 border-box;
+    color: #151320;
+}
